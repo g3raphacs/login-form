@@ -1,5 +1,4 @@
 <?php
-
 $ok = true;
 $messages = array();
 $username='Jeremy';
@@ -9,6 +8,7 @@ if (!isset($_POST['username']) || empty($_POST['username'])){
     $ok = false;
     $messages[] = 'Username cannot be empty!';
 }
+
 if (!isset($_POST['password']) || empty($_POST['password'])){
     $ok = false;
     $messages[] = 'Password cannot be empty!';

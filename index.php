@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
     <div class="form">
         <h1>CONNECT</h1>
         <form id="connect">
@@ -21,9 +21,7 @@
                 <input id="password" name="password" type="password">
             </div>
 
-            <ul id="form-messages">
-                <li>generic error #1</li>
-            </ul>
+            <ul id="form-messages"></ul>
 
             <button id="btn-submit" type="submit">LOGIN</button>
         </form>

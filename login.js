@@ -1,6 +1,4 @@
 const form = {
-    username: document.getElementById('username'),
-    password: document.getElementById('password'),
     submit: document.getElementById('btn-submit'),
     messages: document.getElementById('form-messages'),
     connect: document.getElementById('connect'),
